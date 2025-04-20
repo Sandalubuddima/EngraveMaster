@@ -14,7 +14,7 @@ export default function Logingpage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#b88f87] to-[#d6b2a5]">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#84240c] to-[#d6b2a5]">
       <div className="flex w-full max-w-5xl bg-white shadow-xl rounded-3xl overflow-hidden">
         {/* Left Side - Form */}
         <div className="w-full md:w-1/2 p-10">
