@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Loging_page from './pages/logingpage'
 import Signin_page from './pages/signinpage'
+import Home_page from './pages/homepage'
 import Error_page from './pages/errorpage'
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Home_page />} />
         <Route path="/login" element={<Loging_page />} />
         <Route path="/signin" element={<Signin_page />} />
         <Route path="/*" element={<Error_page />} />
