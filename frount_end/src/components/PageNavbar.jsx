@@ -51,9 +51,9 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Home</a>
-            <a href="#" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">About</a>
-            <a href="#" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Services</a>
+            <a href="/" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Home</a>
+            <a href="/about" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">About</a>
+            <a href="/services" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Services</a>
             <a href="#" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Contact</a>
             <a href="/login" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Login</a>
             <a href="/signup" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Signup</a>
