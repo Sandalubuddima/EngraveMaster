@@ -8,6 +8,9 @@ import Error_page from './pages/errorpage'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import Docs from "./pages/Docs";
+import AskAI from './pages/AskAI'
+
 
 
 function App() {
@@ -23,6 +26,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<Error_page />} />
+        <Route path="/docs" element={<Docs />} />
+        <Route path="/askai" element={<AskAI />} />
       </Routes>
     </BrowserRouter>
   )

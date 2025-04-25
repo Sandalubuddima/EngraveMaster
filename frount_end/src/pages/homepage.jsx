@@ -12,13 +12,14 @@ import {
   FiEdit,
   FiAlertCircle,
 } from "react-icons/fi";
+import { href } from "react-router-dom";
 
 export default function Home() {
   const glassIcons = [
     { icon: <FiPlusCircle />, color: "blue", label: "Create" },
     { icon: <FiFolder />, color: "purple", label: "Your Projects" },
-    { icon: <FiFileText />, color: "red", label: "Docs" },
-    { icon: <FiMessageCircle />, color: "indigo", label: "Ask AI" },
+    { icon: <FiFileText />, color: "red", label: "Docs", href: "/docs" }, // 👈 Add href here
+    { icon: <FiMessageCircle />, color: "indigo", label: "Ask AI", href: "/askai" },
     { icon: <FiEdit />, color: "orange", label: "Notes" },
     { icon: <FiAlertCircle />, color: "green", label: "Inform Us" },
   ];

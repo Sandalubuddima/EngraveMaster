@@ -40,7 +40,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 bg-[#e7cfb4] dark:bg-[#1C1C1C] shadow-md transition-colors duration-300">
+    <nav className="w-full fixed top-0 left-0 z-50 bg-[#fffefd] dark:bg-[#1C1C1C] shadow-md transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -54,7 +54,7 @@ export default function Navbar() {
             <a href="/" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Home</a>
             <a href="/about" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">About</a>
             <a href="/services" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Services</a>
-            <a href="#" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Contact</a>
+            <a href="/contact" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Contact</a>
             <a href="/login" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Login</a>
             <a href="/signup" className="text-gray-800 dark:text-gray-200 hover:text-[#FF6F3C] font-medium">Signup</a>
 
