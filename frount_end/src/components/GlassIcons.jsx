@@ -37,7 +37,7 @@ const GlassIcons = ({ items, className }) => {
           <Wrapper
             key={index}
             {...wrapperProps}
-            className="group relative bg-transparent outline-none w-[6em] h-[6em] [perspective:24em] [transform-style:preserve-3d] [-webkit-tap-highlight-color:transparent] transition-transform duration-300"
+            className="group relative bg-transparent outline-none w-[10em] h-[10em] [perspective:24em] [transform-style:preserve-3d] [-webkit-tap-highlight-color:transparent] transition-transform duration-300"
           >
             {/* Back layer */}
             <span

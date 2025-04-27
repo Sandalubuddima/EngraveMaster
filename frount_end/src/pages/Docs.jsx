@@ -1,8 +1,12 @@
 // src/pages/Docs.jsx
 import React from "react";
+import Navbar from "../components/PageNavbar";
+import Footer from "../components/Footer";
 
 export default function Docs() {
   return (
+        <>
+        <Navbar /><br /><br />
     <div className="min-h-screen px-6 py-12 bg-white dark:bg-[#1c1c1c] text-gray-900 dark:text-white">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-center">EngraveMaster Documentation</h1>
@@ -60,5 +64,7 @@ export default function Docs() {
 
       </div>
     </div>
+        <Footer />
+        </>
   );
 }

@@ -15,7 +15,7 @@ import { href } from "react-router-dom";
 
 export default function Home() {
   const glassIcons = [
-    { icon: <FiPlusCircle />, color: "blue", label: "Create" },
+    { icon: <FiPlusCircle />, color: "blue", label: "Create", href: "/create" },
     { icon: <FiFolder />, color: "purple", label: "Your Projects" },
     { icon: <FiFileText />, color: "red", label: "Docs", href: "/docs" }, // 👈 Add href here
     { icon: <FiMessageCircle />, color: "indigo", label: "Ask AI", href: "/askai" },
