@@ -1,6 +1,5 @@
 import CircularGallery from '../components/CircularGallery'
 import Navbar from "../components/PageNavbar";
-import SplashCursor from "../components/SplashCursor";
 import Footer from "../components/Footer";
 
 export default function AboutUs() {
@@ -59,7 +58,7 @@ export default function AboutUs() {
         </div>
       </div>
     </div>
-    <SplashCursor />
+
     <Footer />
     </>
   )

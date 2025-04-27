@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Navbar from "../components/PageNavbar";
-import SplashCursor from "../components/SplashCursor";
 import Footer from "../components/Footer";
 
 const services = [
@@ -57,7 +56,7 @@ export default function Services() {
         ))}
       </div>
     </div>
-    <SplashCursor />
+
     <Footer />
     </>
   );

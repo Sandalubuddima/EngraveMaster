@@ -1,5 +1,4 @@
 import Navbar from "../components/PageNavbar";
-import SplashCursor from "../components/SplashCursor";
 import Footer from "../components/Footer";
 
 // src/pages/Contact.jsx
@@ -53,7 +52,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-      <SplashCursor />
       <Footer />
       </>
     );

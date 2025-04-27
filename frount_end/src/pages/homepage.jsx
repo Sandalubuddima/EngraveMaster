@@ -1,7 +1,6 @@
 import React from "react";
 import GlassIcons from "../components/GlassIcons";
 import Navbar from "../components/PageNavbar";
-import SplashCursor from "../components/SplashCursor";
 import Footer from "../components/Footer";
 
 import {
@@ -38,8 +37,7 @@ export default function Home() {
         </section>
       </div>
 
-      {/* 🎨 Cursor Fluid Effect */}
-      <SplashCursor />
+
       <Footer />
     </>
   );
