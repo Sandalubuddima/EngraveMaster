@@ -1,7 +1,6 @@
 import React from "react";
 import GlassIcons from "../components/GlassIcons";
 import Navbar from "../components/PageNavbar";
-import SplashCursor from "../components/SplashCursor";
 import Footer from "../components/Footer";
 
 import {
@@ -16,7 +15,7 @@ import { href } from "react-router-dom";
 
 export default function Home() {
   const glassIcons = [
-    { icon: <FiPlusCircle />, color: "blue", label: "Create" },
+    { icon: <FiPlusCircle />, color: "blue", label: "Create", href: "/create" },
     { icon: <FiFolder />, color: "purple", label: "Your Projects" },
     { icon: <FiFileText />, color: "red", label: "Docs", href: "/docs" }, // 👈 Add href here
     { icon: <FiMessageCircle />, color: "indigo", label: "Ask AI", href: "/askai" },
@@ -38,8 +37,7 @@ export default function Home() {
         </section>
       </div>
 
-      {/* 🎨 Cursor Fluid Effect */}
-      <SplashCursor />
+
       <Footer />
     </>
   );

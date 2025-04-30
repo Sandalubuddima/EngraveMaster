@@ -10,6 +10,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Docs from "./pages/Docs";
 import AskAI from './pages/AskAI'
+import Create from './pages/Create'
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/*" element={<Error_page />} />
         <Route path="/docs" element={<Docs />} />
         <Route path="/askai" element={<AskAI />} />
+        <Route path="/create" element={<Create />} />
       </Routes>
     </BrowserRouter>
   )
